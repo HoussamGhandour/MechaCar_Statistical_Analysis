@@ -5,14 +5,15 @@ A Multiple Linear regression model was performed to try and predict the miles pe
 
 <p align="left"> <img src="/Resources/LinearModelResults.png"> </p>
 
-**1) Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
-Based on 0.05 selected significance level: vehicle length and ground clearance provided the most non-random variance to the mpg values in the dataset. In addition, it is noted that the y-intercept had a similar results.
+**1) Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**</p>
+  Based on 0.05 selected significance level: vehicle length and ground clearance provided the most non-random variance to the mpg values in the dataset. In addition, it is noted   that the y-intercept had a similar results.
 
-**2) Is the slope of the linear model considered to be zero? Why or why not?**
-No, the slope of the linear model is not zero since the P-value was less than the selected 0.05 significance level.
+**2) Is the slope of the linear model considered to be zero? Why or why not?**</p>
+  No, the slope of the linear model is not zero since the P-value was less than the selected 0.05 significance level.
 
-**3) Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
-The model shows an R-square value of 0.71 which means that there is a strong correlation of the selected independent variable and mpg. However, there is still room for improvement if additional independent variables were studied/added. 
+**3) Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**</p>
+  The model shows an R-square value of 0.71 which means that there is a strong correlation of the selected independent variable and mpg. However, there is still room for   
+  improvement if additional independent variables were studied/added. 
 
 ## Summary Statistics on Suspension Coils
 Summary statistics were calculated to study whether the variance of suspension coils are within the allowable 100 pounds of square inch. The results are depicted in the Figures below:
@@ -21,7 +22,7 @@ Summary statistics were calculated to study whether the variance of suspension c
 <p align="left"> <img src="/Resources/SummaryStatisticsByLot.png"> </p>
 
 
-**The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**
+**The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**</p>
 The variance for all lots together is 62.3 which is lower than the allowable criteria. However, upon analyzing each lot individually, our team observed that lot 3 is contributing for most of the variance exceeding the allowable limit with a variance of about 170.3.
 
 ## T-Tests on Suspension Coils
@@ -42,13 +43,13 @@ A T-test was conducted to determine if all manufacturing lots and each individua
 ## Study Design: MechaCar vs Competition
 In this section, our team outlines a future statistical analysis to quantify how MechaCar performs against its competition.
 
-**1) What metric or metrics are you going to test?**
-The metrics that our team are interested to study are: fuel efficiency, cost, safety rating, and sales
-**2) What is the null hypothesis or alternative hypothesis?**
-For each metric:
-null hypothesis H0: Similar means
-Alternative hypothesis Ha: Different means
-**3) What statistical test would you use to test the hypothesis? And why?**
-Perform a two-Sample t-Test to examine whether the means are different or similar
-**4) What data is needed to run the statistical test?**
-The data needed are the metrics for MechaCar and its competitors. Early assumptions on significance level should be taken. 
+**1) What metric or metrics are you going to test?**</p>
+  The metrics that our team are interested to study are: fuel efficiency, cost, safety rating, and sales
+**2) What is the null hypothesis or alternative hypothesis?**</p>
+  For each metric:
+  null hypothesis H0: Similar means
+  Alternative hypothesis Ha: Different means
+**3) What statistical test would you use to test the hypothesis? And why?**</p>
+  Perform a two-Sample t-Test to examine whether the means are different or similar
+**4) What data is needed to run the statistical test?**</p>
+  The data needed are the metrics for MechaCar and its competitors. Early assumptions on significance level should be taken. 
