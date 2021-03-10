@@ -45,8 +45,8 @@ In this section, our team outlines a future statistical analysis to quantify how
 **1) What metric or metrics are you going to test?**</p>
   The metrics that our team are interested to study are: fuel efficiency, cost, safety rating, and sales</p>
 **2) What is the null hypothesis or alternative hypothesis?**</p>
-  For each metric:
-  null hypothesis H0: Similar means
+  For each metric:</p>
+  null hypothesis H0: Similar means</p>
   Alternative hypothesis Ha: Different means</p>
 **3) What statistical test would you use to test the hypothesis? And why?**</p>
   Perform a two-Sample t-Test to examine whether the means are different or similar</p>
