@@ -12,8 +12,7 @@ A Multiple Linear regression model was performed to try and predict the miles pe
   No, the slope of the linear model is not zero since the P-value was less than the selected 0.05 significance level.
 
 **3) Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**</p>
-  The model shows an R-square value of 0.71 which means that there is a strong correlation of the selected independent variable and mpg. However, there is still room for   
-  improvement if additional independent variables were studied/added. 
+  The model shows an R-square value of 0.71 which means that there is a strong correlation of the selected independent variable and mpg. However, there is still room for improvement if additional independent variables were studied/added. 
 
 ## Summary Statistics on Suspension Coils
 Summary statistics were calculated to study whether the variance of suspension coils are within the allowable 100 pounds of square inch. The results are depicted in the Figures below:
@@ -44,12 +43,12 @@ A T-test was conducted to determine if all manufacturing lots and each individua
 In this section, our team outlines a future statistical analysis to quantify how MechaCar performs against its competition.
 
 **1) What metric or metrics are you going to test?**</p>
-  The metrics that our team are interested to study are: fuel efficiency, cost, safety rating, and sales
+  The metrics that our team are interested to study are: fuel efficiency, cost, safety rating, and sales</p>
 **2) What is the null hypothesis or alternative hypothesis?**</p>
   For each metric:
   null hypothesis H0: Similar means
-  Alternative hypothesis Ha: Different means
+  Alternative hypothesis Ha: Different means</p>
 **3) What statistical test would you use to test the hypothesis? And why?**</p>
-  Perform a two-Sample t-Test to examine whether the means are different or similar
+  Perform a two-Sample t-Test to examine whether the means are different or similar</p>
 **4) What data is needed to run the statistical test?**</p>
   The data needed are the metrics for MechaCar and its competitors. Early assumptions on significance level should be taken. 
